@@ -1,0 +1,30 @@
+.todoitem {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 8px;
+    color: green;
+}
+
+.todoitem>p {
+    flex: 1;
+
+}
+
+.todoitem--done {
+    text-decoration: line-through;
+    color: red;
+
+}
+
+.remove--btn {
+    margin-right: 10px;
+    font-size: 29px;
+}
+
+.remove--btn:hover {
+    color: red;
+}
